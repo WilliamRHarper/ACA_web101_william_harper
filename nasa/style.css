@@ -12,6 +12,16 @@
     width: 100%;
     height: 450px;
     border: 1px blue solid;
-    background-image: url("spacee-2060x1288.jpg");
+    background-image: url("cosmos-1845140_1920.jpg");
     background-size: cover;
+}
+
+span {
+    color: white;
+    font-family: monospace;
+    font-size: 100px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
 }
