@@ -177,3 +177,13 @@ li {
     height: 45px;
     margin-left: 145px; 
 }
+
+a {
+    margin-left: 60px;
+    color: rgb(195,200,196);
+    font-size: 20px;
+}
+
+#thelink {
+    font-size: 10px;
+}
