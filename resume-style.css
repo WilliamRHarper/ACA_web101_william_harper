@@ -154,3 +154,26 @@ p {
     margin-left: 145px;
     margin-top: 0px;
 }
+
+.largetext {
+    font-size: 20px;
+    color: rgb(154,159,155);
+    margin-bottom: 5px;
+}
+
+.job {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+li {
+    margin-left: 60px;
+    color: rgb(195,200,196);
+    font-size: 20px; 
+}
+
+#linkedin {
+    width: 45px;
+    height: 45px;
+    margin-left: 145px; 
+}
