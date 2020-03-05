@@ -39,10 +39,14 @@ div {
     width: 200px;
     height: 300px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
     border-top-color: white;
-    border-top: 20px;
+    border-top: 30px;
     border-top-style: solid;
+    margin-right: 40px;
+    margin-left: 20px;
+    padding-top: 0px;
+    color: white;
     }
 
 .info {
@@ -51,6 +55,19 @@ div {
 
 h2 {
     font-size: 40px;
+    margin-top: 15px;
+}
+
+#left {
+    border-color: rgb(51,168,221);
+}
+
+#middle {
+    border-color: rgb(244,103,49);
+}
+
+#right {
+    border-color: rgb(40,207,189);
 }
 
 
@@ -59,7 +76,26 @@ h2 {
         background-color: green;
     }
 
+    #first {
+        grid-area: first;
+    }
+
+    .titles {
+        grid-area: title;
+    }
+
     #container {
         width: 500px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+        "first"
+        "title"
+        "title"
+        "title"
+        
     }
 }
+
+
