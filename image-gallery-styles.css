@@ -1,7 +1,8 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0px;
+    
   }
   
   /* Create four equal columns that sits next to each other */
@@ -16,6 +17,99 @@
     vertical-align: middle;
     width: 100%;
   }
+
+  #secondlast img {
+    height: 8.183rem;
+  }
+
+  #firstlast img {
+    height: 25.12rem;
+  }
+
+  #lastcolumn img {
+    height: 21.625rem;
+  }
+
+  .container {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  
+  /*.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }*/
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text animated infinite bounce delay-2s {
+    text-align: center;
+    color: black
+  }
+  /*.container1 {
+    position: relative;
+    width: 100%;
+  }
+
+  .container1:hover .overlay {
+    opacity: 1;
+  }
+
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .text1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }*/
+
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
