@@ -72,10 +72,6 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  .text animated infinite bounce delay-2s {
-    text-align: center;
-    color: black
-  }
   /*.container1 {
     position: relative;
     width: 100%;
