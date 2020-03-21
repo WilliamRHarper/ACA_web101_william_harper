@@ -113,3 +113,42 @@ section {
     margin-left: 200px;
 }
 
+.icons {
+    font-size: 25px;
+    color: white;
+}
+
+.iconBox {
+    width: 35px;
+    height:35px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    text-align: center;
+    margin-top: 6px;
+    padding-top: 6px;
+    margin-right: 20px;
+}
+
+#footerIcons {
+    display: flex;
+    margin-left: 450px;
+    margin-top:35px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(37,37,37);
+    height: 120px;
+}
+
+#footerText {
+    color: white;
+    margin-left: 230px;
+    margin-top: 50px;
+}
+
+a:link {
+text-decoration: none;
+}
+
