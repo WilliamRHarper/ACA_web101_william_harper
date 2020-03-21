@@ -119,6 +119,7 @@ section {
 }
 
 .iconBox {
+    position: relative;
     width: 35px;
     height:35px;
     border-style: solid;
@@ -129,6 +130,29 @@ section {
     padding-top: 6px;
     margin-right: 20px;
 }
+
+
+/*.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: white;
+    color: black;
+  }
+
+.iconbox:hover  .overlay{
+    opacity: 1;
+}
+
+.icons:hover {
+    color: black;
+}*/
 
 #footerIcons {
     display: flex;
