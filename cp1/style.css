@@ -86,3 +86,30 @@ section {
     color: white;
     font-weight: bold;
 }
+
+#minigallery {
+    display: flex;
+    justify-content: center;
+}
+
+#mini {
+    margin-right: 20px;
+    margin-top: 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#captions {
+    display: flex;
+    margin-left: 320px;
+    margin-bottom: 40px;
+}
+
+#caption2 {
+    margin-left: 180px;
+}
+#caption3 {
+    margin-left: 200px;
+}
+
