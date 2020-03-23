@@ -152,15 +152,15 @@ section {
 
 #captions {
     display: flex;
-    margin-left: 320px;
+    margin-left: 20%;
     margin-bottom: 40px;
 }
 
 #caption2 {
-    margin-left: 180px;
+    margin-left: 16%;
 }
 #caption3 {
-    margin-left: 200px;
+    margin-left: 18%;
 }
 
 .icons {
@@ -261,7 +261,7 @@ p {
 
 #footerIcons {
     display: flex;
-    margin-left: 450px;
+    margin-left: 35%;
     margin-top:35px;
 }
 
@@ -273,7 +273,7 @@ footer {
 
 #footerText {
     color: white;
-    margin-left: 230px;
+    margin-left: 13%;
     margin-top: 50px;
 }
 
@@ -444,6 +444,33 @@ footer {
     color: black;
 }
 
+.linktext:hover {
+    color: dimgrey;
+}
+
+.imageHover {
+    opacity: 0.8;
+}
+
+.imageHover:hover {
+    opacity: 1;
+}
+
+.singleBlogLink:hover {
+    background-color: blue;
+}
+
+#blogLink:hover {
+    background-color: dodgerblue;
+}
+
+.iconBox:hover {
+    background-color: blue;
+}
+
+.selected:hover {
+    color: rgb(11,163,156);
+}
 
 
 
