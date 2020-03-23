@@ -106,6 +106,29 @@ section {
     margin-top: 20px;
 }
 
+.singleBlogLink {
+    height: 15px;
+    width: 145px;
+    background-color: black;
+    padding-top: 3px;
+    padding-bottom: 17px;
+    margin-top: 20px;
+    margin-left: 36%;
+    display: flex;
+    justify-content: center;
+}
+
+.postLink {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 800;
+}
+
+.postLink:link {
+    text-decoration: none;
+}
+
 #first {
     padding: 28px;
     font-size: 17px;
@@ -307,6 +330,30 @@ footer {
     font-family: 'Poller One', cursive;
 }
 
+#blogTitle {
+    width: 180px;
+    height: 60px;
+    background-color: rgb(37,37,37);
+    color: white;
+    text-align: center;
+    margin-left: 43%;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-family: 'Poller One', cursive;
+}
+
+#singleBlogTitle {
+    width: 460px;
+    height: 60px;
+    background-color: rgb(37,37,37);
+    color: white;
+    text-align: center;
+    margin-left: 32%;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-family: 'Poller One', cursive;
+}
+
 #proper {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 1000;
@@ -336,5 +383,67 @@ footer {
     margin-top: 35px;
     margin-bottom: 50px;
 }
+
+.blogContainer {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding-top: 0px;
+    margin-bottom: 15px;
+}
+
+.blogText {
+    width: 55%;
+    border-left: solid black 2px;
+    padding-top: 30px;
+}
+
+.whyText {
+    font-size: 13px;
+    text-align: center;
+}
+
+.why {
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#lastBlog {
+    margin-bottom: 40px;
+}
+
+#singlepic {
+    margin-left: 15%;
+    margin-right: 14%;
+    height: 295px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    
+}
+
+.singleBlog {
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.singleText {
+    font-size: 13px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 31%;
+    margin-bottom: 50px;
+}
+
+.linktext:link {
+    color: black;
+}
+
+
 
 
