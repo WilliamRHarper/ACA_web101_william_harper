@@ -354,6 +354,18 @@ footer {
     font-family: 'Poller One', cursive;
 }
 
+#contactTitle {
+    width: 520px;
+    height: 60px;
+    background-color: rgb(37,37,37);
+    color: white;
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-family: 'Poller One', cursive;
+}
+
 #proper {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 1000;
@@ -472,5 +484,41 @@ footer {
     color: rgb(11,163,156);
 }
 
+.field {
+    width: 46%;
+    padding-top: 20px;
+    font-size: 17px;
+    margin-left: 26%;
+}
+
+.fields {
+    height: 60px;
+    margin-bottom: 45px;
+}
+
+input:placeholder-shown {
+    text-align: center;
+    padding-bottom: 20px;
+    border-color: black;
+  }
+
+  #message {
+      height: 180px;
+  }
+
+  #messageField {
+      margin-bottom: 45px;
+  }
+
+  button {
+      height: 75px;
+      width: 105px;
+      margin-left: 45%;
+      margin-bottom: 55px;
+      background-color: black;
+      color: white;
+      font-weight: 900;
+      font-size: 15px;
+  }
 
 
