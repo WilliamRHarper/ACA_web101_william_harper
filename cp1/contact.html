@@ -10,7 +10,7 @@
     <title>Contact</title>
 </head>
 <body>
-    <div id="container"></div>
+    <div class="container">
         <header>
             <div id="logo">
                 <img src="./cp1-images/logo.jpg" alt="logo">
@@ -28,27 +28,29 @@
         <div id="contactTitle">
             <h1>LET'S KEEP IN TOUCH</h1>
         </div>
-        <div class="fields">
-            <label for="name"></label>
-            <input required type="text" name="name" id="name" class="field" placeholder="NAME">
-        </div>
-        <div class="fields">
-            <label for="address"></label>
-            <input required type="text" name="address" id="address" class="field" placeholder="ADDRESS">
-        </div>
-        <div class="fields">
-            <label for="email"></label>
-            <input required type="email" name="email" id="email" class="field" placeholder="EMAIL">
-        </div>
-        <div class="fields">
-            <label for="phone"></label>
-            <input required type="tel" name="phone" id="phone" class="field" placeholder="PHONE NUMBER">
-        </div>
-        <div id="messageField">
-            <label for="message"></label>
-            <input required type="text" name="message" id="message" class="field" placeholder="MESSAGE">
-        </div>
-        <button id="results">SEND</button>
+        <form action="results.html" method="GET" enctype="multipart/form-data">
+            <div class="fields">
+                <label for="name"></label>
+                <input required type="text" name="name" id="name" class="field" placeholder="NAME">
+            </div>
+            <div class="fields">
+                <label for="address"></label>
+                <input required type="text" name="address" id="address" class="field" placeholder="ADDRESS">
+            </div>
+            <div class="fields">
+                <label for="email"></label>
+                <input required type="email" name="email" id="email" class="field" placeholder="EMAIL">
+            </div>
+            <div class="fields">
+                <label for="phone"></label>
+                <input required type="tel" name="phone" id="phone" class="field" placeholder="PHONE NUMBER">
+            </div>
+            <div id="messageField">
+                <label for="message"></label>
+                <input required type="text" name="message" id="message" class="field" placeholder="MESSAGE">
+            </div>
+            <button id="results">SEND</button>
+        </form>
         <footer>
             <p id="footerText">&copy;2023 by Mustacchio.All rights reserved.</p>
             <div id="footerIcons">
