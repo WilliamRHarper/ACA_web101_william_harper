@@ -5,16 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="resume-style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
         <script src="resume-scripts.js"></script>
         <title>My Resume </title>
     </head>
     <body>
         <header>
             <img src="myProfilePic.jpg" id="profile-pic" alt="Head shot of Me" class=
-            "rotateimg">
-            <h1 class="animated fadeOut delay-2s">WILLIAM</h1>
-            <h1 id="lastname">HARPER</h1>
+            "rotateimg" onmouseover="toHide()">
+            <h1 id="target" onclick="fadeOutEffect()">WILLIAM<br>HARPER</h1>
         </header>
         <main>
             <section>
@@ -45,11 +43,11 @@
                 </p>
             </section>
             <section class="background">
-                <img src="mobile-symbol-1.jpg" id="phone">
-                <p id=number>737-224-0480</p>
+                <img src="mobile-symbol-1.jpg" id="phone" onclick="toShow()">
+                <p id="number">737-224-0480</p>
                 <img src="depositphotos_127974736-stock-illustration-map-pin-location-sign-blue.jpg" id="location">
-                <p class=address id="street">3408 Rooba Street</p>
-                <p class=address id="city">Austin,Tx 78728</p>
+                <p class="address" id="street">3408 Rooba Street</p>
+                <p class="address" id="city">Austin,Tx 78728</p>
                 <img src="email-ícone-prêmio-azul-redondo-botão-banco-de-ilustrações_csp43878253.jpg" id="mail">
                     <a id="email" >Wrharpe1230@gmail.com</a>
             </section>

@@ -2,11 +2,12 @@ body {
     background-color: lightyellow;
 }
 header {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 25% 75%;
     grid-template-rows: 50% 50%;
     width: 100%;
-    height: 240px;
+    height: 240px; */
+    display: flex;
 }
 
 #profile-pic {
@@ -21,13 +22,13 @@ header {
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
-    grid-column: 1/2;
     border: 1px solid rgb(214,213,209);
 }
 
-h1 {
-    display: flexbox;
-    justify-content: left;
+
+#target {
+    /* display: flexbox;
+    justify-content: left; */
     margin-top: 10px;
     margin-left: 60px;
     margin-bottom: 0px;
@@ -35,13 +36,14 @@ h1 {
     color: rgb(35,13,81);
 }
 
-#lastname {
+/* #target {
     grid-row: 2/3;
     grid-column: 2/3;
     border-bottom-style: solid;
     margin-top: 0px;
     margin-bottom: 0px;
-}
+    margin-left: 60px;
+} */
 
 main {
     display: grid;
@@ -78,6 +80,8 @@ h2 {
 
 .background {
     background-image: url("Blue-Plain-Image.jpg");
+    display: block;
+    justify-content: center;
 }
 
 span {
@@ -117,12 +121,12 @@ p {
 #phone {
     width: 45px;
     height 45px;
-    margin-left: 145px;
+    margin-left: 45%;
     margin-top: 20px;
 }
 
 #number {
-    display: flex;
+    display: none;
     justify-content: center;
     margin-left: 0px;
 }
@@ -130,8 +134,8 @@ p {
 #location {
     width: 45px;
     height 45px;
-    margin-left: 145px;
-    margin-top: 0px;
+    margin-left: 45%;
+    margin-top: 20px;
 }
 
 .address {
@@ -151,8 +155,13 @@ p {
 #mail {
     width: 45px;
     height 45px;
-    margin-left: 145px;
-    margin-top: 0px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+#email {
+    display: flex;
+    justify-content: center;
 }
 
 .largetext {
@@ -175,11 +184,12 @@ li {
 #linkedin {
     width: 45px;
     height: 45px;
-    margin-left: 145px; 
+    margin-left: 45%; 
+    margin-top: 40px;
 }
 
 a {
-    margin-left: 60px;
+    margin-left: 10%;
     color: rgb(195,200,196);
     font-size: 20px;
 }
